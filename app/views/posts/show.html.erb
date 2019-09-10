@@ -1,0 +1,23 @@
+<p id="notice"></p>
+
+<p>
+<div class="title">
+	<strong>Title:</strong>
+</div>
+  <%= @post.title %>
+  <div class="palindrome" >Insert Palindrome
+  </div>
+  <div class="detect_palindrome" >Print Palindrome Results
+  </div>
+  <div class="detect_smallest_palindrome">Detect Smallest Palindrome Here
+  </div>
+
+</p>
+
+<p>
+  <strong>Photo:</strong>
+  <%= image_tag @post.photo.url %>
+</p>
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>
