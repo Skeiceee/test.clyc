@@ -8,7 +8,7 @@ gem 'carrierwave'
 # Rspec
 gem 'rspec-rails', '~> 3.8.0'
 # Devise gem
-gem 'devise', '~> 4.6.2'
+gem 'devise', '~> 4.7.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0.rc1'
 # Use sqlite3 as the database for Active Record
